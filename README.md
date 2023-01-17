@@ -12,21 +12,20 @@ Rust template development environment using VSCode's RemoteContainers
 
 ## Usage
 
-Run `Remote-containers: Reopen in Container` from the command palette ( `⌘` + `⇧` + `P` ).
-And if you see "Dev Container: Rust Template" in the bottom left corner, you're good to go!
+Run dev container ```michibiki/rust-devcontainer:1.66-buster```
 
-## The following are installed.
+## The following are installed
 
 - Docker image
-    - rust:1.66-buster
+  - rust:1.66-buster
 - CLI tools
-    - git
-    - cargo-edit
-    - cargo-watch
+  - git
+  - cargo-edit
+  - cargo-watch
 - VSCode extensions
-    - [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer)
-    - [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
-    - [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
-    - [crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates)
-    - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-
+  - [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=matklad.rust-analyzer)
+  - [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb)
+  - [Better TOML](https://marketplace.visualstudio.com/items?itemName=bungcip.better-toml)
+  - [crates](https://marketplace.visualstudio.com/items?itemName=serayuzgur.crates)
+  - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+  - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlintt)
